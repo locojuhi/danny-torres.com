@@ -11,9 +11,9 @@ draft: false
 hidemeta: false
 disableShare: false
 cover:
-  image: '<image path/url>'
-  alt: '<alt text>'
-  caption: '<text>'
+  image: 'https://via.placeholder.com/1024x768.png?text=Image+Example+For+Page'
+  alt: 'Post Image'
+  caption: 'Post Image'
   relative: false
 comments: false
 ---
