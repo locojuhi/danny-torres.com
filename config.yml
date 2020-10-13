@@ -1,5 +1,5 @@
-baseURL: 'https://examplesite.com'
-title: ExampleSite
+baseURL: 'https://danny-torres.com'
+title: Danny Torres
 paginate: 5
 theme: hugo-PaperMod
 
@@ -16,7 +16,7 @@ minify:
 
 params:
   env: "development"
-  description: "ExampleSite's description"
+  description: "Technical blog"
   author: Me
 
   images: "<link or path of image for opengraph, twitter-cards>"
@@ -47,11 +47,11 @@ params:
 
   socialIcons:
     - name: twitter
-      url: 'https://twitter.com/'
+      url: 'https://twitter.com/l0c0juhi'
     - name: stackoverflow
-      url: 'https://stackoverflow.com'
+      url: 'https://stackoverflow.com/users/5131295/locojuhi'
     - name: github
-      url: 'https://github.com/'
+      url: 'https://github.com/locojuhi'
 
 
   analytics:
