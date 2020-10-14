@@ -1,7 +1,13 @@
 baseURL: 'https://danny-torres.com'
 title: Danny Torres
 paginate: 5
-theme: hugo-PaperMod
+theme: hugo-geekblog
+
+# Required to get well formatted code blocks
+pygmentsUseClasses: true
+pygmentsCodeFences: true
+disablePathToLower: true
+enableGitInfo: true
 
 enableRobotsTXT: true
 buildDrafts: false
