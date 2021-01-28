@@ -1,0 +1,17 @@
+{
+  "name": "danny-torres.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:locojuhi/danny-torres.com.git",
+  "author": "Danny Torres <danny.torresxd@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "atomic-algolia": "^0.3.19",
+    "hugo-algolia": "^1.2.14"
+  },
+  "scripts": {
+    "index": "hugo-algolia -t",
+    "index-and-send": "hugo-algolia -s",
+    "algolia": "atomic-algolia"
+  }
+}

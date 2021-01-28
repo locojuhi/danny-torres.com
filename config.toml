@@ -60,3 +60,16 @@ disablePathToLower = true
     pre = "tag"
     url = "/tags/"
     weight = 3
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "summary", "date", "permalink", "Keywords", "language"]
+params = ["categories", "tags"]
+
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
