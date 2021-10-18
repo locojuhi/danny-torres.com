@@ -1,8 +1,14 @@
 baseURL = "https://danny-torres.com"
+languageCode = "es-co"
 title = "Technical blog"
 theme = "hugo-nes"
 
-# Geekblog required configuration
+ignoreFiles = [
+    "/content/templates/*",
+    "/content/private/*",
+]
+
+relativeURLs = true
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 disablePathToLower = true
@@ -12,9 +18,20 @@ disablePathToLower = true
   [markup.goldmark.renderer]
     unsafe = true
   [markup.tableOfContents]
-    startLevel = 1
-    endLevel = 9
-
+    endLevel = 3
+    ordered = true
+    startLevel = 2
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    style = "dracula"
+    tabWidth = 4
 [taxonomies]
   author = "authors"
   tag = "tags"
